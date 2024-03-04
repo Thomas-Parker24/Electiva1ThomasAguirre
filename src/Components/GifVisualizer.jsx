@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import { getGifs } from "../Helpers/GetGifs";
+import searchIcon from "../Resources/searchIcon.svg"
+
 
 export const GifVisualizer = () => {
 
@@ -20,15 +22,17 @@ export const GifVisualizer = () => {
 
     return (
         <>
-            <div>
+            <div className="TitleDiv">
                 <h1> Gif Visualizer in action! </h1>
-                <input id="MainInput" type="text" placeholder="Write a keyword!" onChange={InputChanged} />
-
             </div>
-            <div>
+            <div className="UserInteraction">
+                <input id="MainInput" type="text" placeholder="Write a keyword!" />
+                <img className="SearchIcon" src={searchIcon} onClick={InputChanged} />
+            </div>
+            <div className="Gifs">
                 {
                     Gifs.map(Gif => (
-                        <img src={Gif} alt="" key={Gif} />
+                        <img className="Gif" src={Gif} alt="" key={Gif} />
                     ))
                 }
             </div>
