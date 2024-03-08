@@ -7,10 +7,10 @@ Tecnológico de Antioquia
 
 ## Tecnologías:
 
-- <React>
-- <Librería SweetAlert2>
-- <Vite>
-- <CSS>  
+- React
+- Librería SweetAlert2
+- Vite
+- CSS  
 
 # GifApp
 
