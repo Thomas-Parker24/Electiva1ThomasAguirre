@@ -22,7 +22,7 @@ GiffApp es una aplicación Front-End desarrollada usando React y JavaScript, en 
     - git clone https://github.com/Thomas-Parker24/Electiva1ThomasAguirre.git en tu    consola de comandos
 
 2. En windows usa el comando: 
-    cd Electiva1ThomasAguirre
+    - cd Electiva1ThomasAguirre
 
 3. escribe el comando:
     - npm install
